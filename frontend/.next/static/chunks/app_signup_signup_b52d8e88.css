@@ -1,0 +1,135 @@
+/* [project]/app/signup/signup.css [app-client] (css) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.signup-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 30px #0000004d;
+  border: 1px solid #ffffff0d;
+}
+
+h1 {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  background-color: #ffffff12;
+  border: 1px solid #ffffff1a;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  width: 100%;
+  transition: all .2s;
+}
+
+.input::placeholder {
+  color: #e3000080;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #9333ea;
+  box-shadow: 0 0 0 2px #9333ea33;
+}
+
+input[type="submit"] {
+  background-color: #9333ea;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: .5rem;
+  border: none;
+}
+
+input[type="submit"]:hover:not(:disabled) {
+  background-color: #a855f7;
+}
+
+input[type="submit"]:disabled {
+  background-color: #9333ea80;
+  cursor: not-allowed;
+}
+
+.login-redirect {
+  background: none;
+  border: none;
+  color: #a855f7;
+  text-align: center;
+  width: 100%;
+  font-size: .9rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  padding: .5rem;
+}
+
+.login-redirect:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+  position: relative;
+}
+
+ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  margin-top: .25rem;
+  box-shadow: 0 4px 12px #0003;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+li {
+  padding: .75rem 1rem;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: #9333ea33;
+}
+
+.login-btn {
+  background-color: red;
+  width: 200px;
+}
+
+/*# sourceMappingURL=app_signup_signup_b52d8e88.css.map*/

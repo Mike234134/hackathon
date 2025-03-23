@@ -97,7 +97,7 @@ def get_format_data(data):
     data = data['tracks'][0]
     artist = data["artists"][0]["name"]
     album = data["album"]["name"]
-    album_cover = data["album"]["images"][2]["url"]
+    album_cover = data["album"]["images"][1]["url"]
     release_date = data["album"]["release_date"]
     genre = genres.get(artist, 'music')
     song = data["name"]
