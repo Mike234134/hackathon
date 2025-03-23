@@ -53,7 +53,7 @@ export default function HomePage() {
           <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl mb-8">Featured Stories</h2>
           <Suspense fallback={<LoadingSpinner />}>
             <FeaturedSongs />
-            <button>Click here</button>
+            
           </Suspense>
         </section>
 
