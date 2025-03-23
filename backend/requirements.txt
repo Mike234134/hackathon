@@ -7,5 +7,6 @@ pyjwt
 python-jose
 redis[hiredis]
 pylibmagic
-python-majic
+python-magic
 httpx
+itsdangerous

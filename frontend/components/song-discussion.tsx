@@ -9,7 +9,7 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { MessageCircle, ThumbsUp, Send, FlameIcon as Fire, HeartCrackIcon as HeartBroken, Music } from "lucide-react"
 
 interface SongDiscussionProps {
-  songId: string
+  songId: string | undefined
 }
 
 interface Comment {

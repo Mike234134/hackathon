@@ -7,7 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ThumbsUp, ThumbsDown, RefreshCw, Lightbulb, History, Music } from "lucide-react"
 
 interface SongStoryCardProps {
-  songId: string
+  songId: string | undefined
 }
 
 export default function SongStoryCard({ songId }: SongStoryCardProps) {

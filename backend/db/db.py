@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import threading
 import asyncpg
 from config import Config
-from builders import UserBuilder, AccountInfoBuilder
+# from builders import UserBuilder, AccountInfoBuilder
 import asyncio
 load_dotenv()
 
