@@ -89,7 +89,7 @@ export default function SongStoryCard({ songId }: SongStoryCardProps) {
         <div className="mt-8 p-4 bg-purple-50 dark:bg-purple-900/20 rounded-lg">
           <h3 className="font-medium mb-2 flex items-center">
             <Lightbulb className="h-4 w-4 mr-2 text-purple-600" />
-            AI Conversation Starter
+            Fun Fact
           </h3>
           <p className="text-sm">
             Did you know that "Bohemian Rhapsody" was initially rejected by Queen's management? The band believed in the

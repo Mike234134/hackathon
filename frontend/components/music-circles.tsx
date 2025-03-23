@@ -46,6 +46,7 @@ const activeCircles = [
       { name: "GH", image: "/placeholder.svg?height=40&width=40" },
     ],
   },
+  
 ]
 
 export default function MusicCircles() {
@@ -93,7 +94,7 @@ export default function MusicCircles() {
           </CardContent>
           <CardFooter>
             <Button className="w-full">
-               <a href="spaces">Join Circle</a>
+               <a href="group-chat">Join Circle</a>
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </CardFooter>

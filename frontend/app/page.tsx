@@ -22,7 +22,7 @@ export default function HomePage() {
               <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
               <Input type="search" placeholder="Search songs, artists or genres..." className="pl-8 w-full" />
             </form>
-            <Button>Sign In</Button>
+            <Link href="signup"><Button>Sign In</Button></Link>
           </div>
         </div>
       </header>
@@ -53,6 +53,7 @@ export default function HomePage() {
           <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl mb-8">Featured Stories</h2>
           <Suspense fallback={<LoadingSpinner />}>
             <FeaturedSongs />
+            <button>Click here</button>
           </Suspense>
         </section>
 
@@ -106,7 +107,7 @@ export default function HomePage() {
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img
-                src="/placeholder.svg?height=400&width=600"
+                src="/neon-heart-rates-sign-display-footage-133527926_iconl.webp?height=400&width=600"
                 alt="Music Storyteller App Demo"
                 className="w-full h-auto"
               />

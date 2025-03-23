@@ -40,7 +40,7 @@ export default function SongPage({ params }: { params: { id: string } }) {
             <div className="sticky top-24">
               <div className="rounded-lg overflow-hidden shadow-lg mb-6">
                 <img
-                  src={song.image || "/placeholder.svg"}
+                  src={song.image || "/"}
                   alt={`${song.title} by ${song.artist}`}
                   className="w-full h-auto"
                 />

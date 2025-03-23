@@ -629,7 +629,7 @@ export default function GroupChatPage() {
             <div className="p-3 border-t">
               <Button className="w-full">
                 <Plus className="h-4 w-4 mr-2" />
-                Create New Circle
+                  <a href="create-circle">Create New Circle</a>
               </Button>
             </div>
           </div>
@@ -752,15 +752,8 @@ export default function GroupChatPage() {
                 <div className="p-4 border-t bg-white dark:bg-gray-900">
                   <div className="flex gap-2">
                     <div className="flex gap-2">
-                      <Button variant="ghost" size="icon" className="rounded-full">
-                        <Smile className="h-5 w-5 text-gray-500" />
-                      </Button>
-                      <Button variant="ghost" size="icon" className="rounded-full">
-                        <Image className="h-5 w-5 text-gray-500" />
-                      </Button>
-                      <Button variant="ghost" size="icon" className="rounded-full">
-                        <Paperclip className="h-5 w-5 text-gray-500" />
-                      </Button>
+                      
+                     
                     </div>
                     <Input
                       placeholder="Type your message..."
